@@ -10,6 +10,8 @@ public class Pessoa {
 	private String endereco;
 	private Date dataNascimento;
 	private String teste3;
+	
+	private String teste4;
 
 	public String getNome() {
 		return nome;
