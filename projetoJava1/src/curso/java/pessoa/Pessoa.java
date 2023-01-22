@@ -9,6 +9,8 @@ public class Pessoa {
 	private int idade;
 	private String endereco;
 	private Date dataNascimento;
+	private Date dataNascimento2;
+	
 
 	public String getNome() {
 		return nome;
@@ -40,6 +42,22 @@ public class Pessoa {
 
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
+	}
+
+	public Date getDataNascimento2() {
+		return dataNascimento2;
+	}
+
+	public void setDataNascimento2(Date dataNascimento2) {
+		this.dataNascimento2 = dataNascimento2;
+	}
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
 	}
 
 }
