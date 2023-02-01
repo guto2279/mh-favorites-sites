@@ -23,7 +23,7 @@ public class Main {
 			website.setNome(nome);
 			website.setUrl(url);
 			
-			System.out.println("Deseja sair?");
+			System.out.println("Deseja sair? (s/n)");
 			sair = scanner.nextLine();
 			meusWebsites.add(website);
 			
@@ -32,7 +32,7 @@ public class Main {
 	System.out.println("----------------- Lista de sites -----------------");
 		
 		for (Website websites : meusWebsites) {
-			System.out.println(websites);
+			System.out.println(websites.getNome() + ": " + websites.getUrl());
 		}
 	System.out.println("--------------------------------------------------");	
 		
